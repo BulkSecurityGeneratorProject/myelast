@@ -1,0 +1,12 @@
+version: '2'
+services:
+    myelast-postgresql:
+        container_name: myelast-postgresql
+        image: postgres:9.5.4
+        # volumes:
+        #     - ~/volumes/jhipster/myelast/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=myelast
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

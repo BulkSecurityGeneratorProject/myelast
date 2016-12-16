@@ -19,7 +19,7 @@ spring:
             enabled: false
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgres://ec2-54-75-239-190.eu-west-1.compute.amazonaws.com:5432/dld7qqlnausm8
+        url: jdbc:postgresql://ec2-54-75-239-190.eu-west-1.compute.amazonaws.com:5432/dld7qqlnausm8
         name:
         username: mcxhhqwptbcwbz
         password: c2618a86e7aed141216e7e6d4ed29aec9d772376baabf422879ed80003978a5e@
